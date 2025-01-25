@@ -1,0 +1,26 @@
+nil
+
+7734
+
+lobyms
+
+(a)
+
+(a b)
+
+(a b c)
+
+((a) b c)
+
+((a b) c)
+
+(a (b c))
+
+((a b c))
+
+(define !
+  (lambda (n)
+    (if
+      (= n 0)
+      1
+      (* n (! (- n 1))))))
